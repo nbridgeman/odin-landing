@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -123,4 +123,95 @@ body {
     font-size: 18px;
     color: #5a5b5c;
     padding: 0 20px;
+}
+
+.quote-sec {
+    display: flex;
+    flex: 0 0 100%;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 425px;
+    background-color: #E5E7EB;
+}
+
+.quote-sec .quote {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.quote-sec .source {
+    color: #1F2937;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.call-to-action {
+    background-color: #F9FAF8;
+    display: flex;
+    flex: 0 0 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 375px;
+}
+
+.call-to-action .block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    background-color: #3882F6;
+    padding: 30px 100px;
+    border-radius: 8px;
+}
+
+.call-to-action .block button {
+    margin-left: auto;
+    padding: 5px 40px;
+    height: 40px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.call-to-action .block .text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.call-to-action .block .text h1,
+.call-to-action .block .text p {
+    margin: 5px;
+}
+
+.footer {
+    display: flex;
+    flex: 0 0 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 20px 0;
+}
+
+.footer p {
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 18px;
 }
