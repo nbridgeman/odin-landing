@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex: 0 0 100%;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: .5em 20em;
+    background-color: #1F2937;
+}
+
+.header .push {
+    margin-left: auto;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.header p {
+    font-size: 18px;
+    color: #E5E7EB
+}
