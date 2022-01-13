@@ -27,7 +27,9 @@ body {
 
 .header a {
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    text-decoration: none;
+    
 }
 
 .hero {
@@ -36,7 +38,7 @@ body {
     flex-flow: row nowrap;
     justify-content: flex-start;
     gap: 20px;
-    padding: 70px 400px;
+    padding: 70px 400px 125px;
     background-color: #1F2937;
 }
 
@@ -74,4 +76,51 @@ body {
     border-radius: 8px;
     font-weight: bold;
     font-size: 16px;
+}
+
+.information {
+    display: flex;
+    flex: 0 0 100%;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 400px 60px;
+    background-color: #F9FAF8;
+}
+
+.information h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.information .images {
+    display: flex;
+    flex: 1;
+    align-items: baseline;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+.information .images .image {
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.information .images .image img {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+}
+
+.information .images .image p {
+    text-align: center;
+    font-size: 18px;
+    color: #5a5b5c;
+    padding: 0 20px;
 }
