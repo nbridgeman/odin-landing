@@ -12,7 +12,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
-    padding: .5em 20em;
+    padding: 22px 400px;
     background-color: #1F2937;
 }
 
@@ -28,4 +28,50 @@ body {
 .header p {
     font-size: 18px;
     color: #E5E7EB
+}
+
+.hero {
+    display: flex;
+    flex: 0 0 100%;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 70px 400px;
+    background-color: #1F2937;
+}
+
+.hero img {
+    max-width: 600px;
+    flex: 1;
+    height: auto;
+}
+
+.hero .text {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero .text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+.hero .text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero .text button {
+    padding: 5px 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
 }
