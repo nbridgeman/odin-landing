@@ -7,7 +7,6 @@ body {
 
 .header {
     display: flex;
-    flex: 0 0 100%;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
@@ -34,7 +33,6 @@ body {
 
 .hero {
     display: flex;
-    flex: 0 0 100%;
     flex-flow: row nowrap;
     justify-content: flex-start;
     gap: 20px;
@@ -44,7 +42,6 @@ body {
 
 .hero img {
     max-width: 600px;
-    flex: 1;
     height: auto;
 }
 
@@ -80,7 +77,6 @@ body {
 
 .information {
     display: flex;
-    flex: 0 0 100%;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
@@ -97,7 +93,6 @@ body {
 
 .information .images {
     display: flex;
-    flex: 1;
     align-items: baseline;
     flex-flow: row nowrap;
     gap: 20px;
@@ -105,7 +100,6 @@ body {
 
 .information .images .image {
     display: flex;
-    flex: 1;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
@@ -127,7 +121,6 @@ body {
 
 .quote-sec {
     display: flex;
-    flex: 0 0 100%;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
@@ -157,7 +150,6 @@ body {
 .call-to-action {
     background-color: #F9FAF8;
     display: flex;
-    flex: 0 0 100%;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
@@ -166,10 +158,10 @@ body {
 
 .call-to-action .block {
     display: flex;
+    flex: 1;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
-    flex: 1;
     background-color: #3882F6;
     padding: 30px 100px;
     border-radius: 8px;
@@ -203,7 +195,6 @@ body {
 
 .footer {
     display: flex;
-    flex: 0 0 100%;
     align-items: center;
     justify-content: center;
     background-color: #1F2937;
